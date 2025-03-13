@@ -1,0 +1,23 @@
+# ninja log v6
+9	1212	7622191308682888	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	19ff8440c4a30e4d
+14	1445	7636039637634185	CMakeFiles/algorithms_test.dir/test/algorithms_test.cpp.obj	c4e277313b7cabea
+1446	2032	7636039657759082	algorithms_test[1]_tests.cmake	4459f1e72f394ee7
+3	13294	7622191308612812	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	355d270c6039e4ae
+20	6386	7636044214703362	build.ninja	8c2ace2f76d631ff
+8	445	7636041143751289	CMakeFiles/algorithms_test.dir/src/main.cpp.obj	80b9f3d0346736b4
+37	266	7622192906561061	lib/libgtest.a	5e4f2e5c8cdffe63
+266	382	7622192908858827	lib/libgtest_main.a	bacc755345f13b8c
+1446	2032	7636039657759082	algorithms_test.exe	4459f1e72f394ee7
+1446	2032	7636039657759082	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/algorithms/cmake-build-debug/algorithms_test[1]_tests.cmake	4459f1e72f394ee7
+15	1334	7636045374849106	CMakeFiles/algorithms_test.dir/test/algorithms_test.cpp.obj	c4e277313b7cabea
+10	1263	7636046033899864	CMakeFiles/algorithms_test.dir/test/algorithms_test.cpp.obj	c4e277313b7cabea
+16	529	7636048756404712	CMakeFiles/algorithms_test.dir/src/main.cpp.obj	80b9f3d0346736b4
+11	1466	7636048756350517	CMakeFiles/algorithms_test.dir/test/algorithms_test.cpp.obj	c4e277313b7cabea
+1466	2077	7636048776946963	algorithms_test.exe	4459f1e72f394ee7
+1466	2077	7636048776946963	algorithms_test[1]_tests.cmake	4459f1e72f394ee7
+1466	2077	7636048776946963	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/algorithms/cmake-build-debug/algorithms_test[1]_tests.cmake	4459f1e72f394ee7
+13	442	7636076869890579	CMakeFiles/algorithms_test.dir/src/main.cpp.obj	80b9f3d0346736b4
+7	1182	7636076869828553	CMakeFiles/algorithms_test.dir/test/algorithms_test.cpp.obj	c4e277313b7cabea
+1182	1796	7636076887654240	algorithms_test.exe	4459f1e72f394ee7
+1182	1796	7636076887654240	algorithms_test[1]_tests.cmake	4459f1e72f394ee7
+1182	1796	7636076887654240	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/algorithms/cmake-build-debug/algorithms_test[1]_tests.cmake	4459f1e72f394ee7

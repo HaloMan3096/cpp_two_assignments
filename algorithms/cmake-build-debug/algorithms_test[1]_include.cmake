@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/algorithms/cmake-build-debug/algorithms_test[1]_tests.cmake")
+  include("C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/algorithms/cmake-build-debug/algorithms_test[1]_tests.cmake")
+else()
+  add_test(algorithms_test_NOT_BUILT algorithms_test_NOT_BUILT)
+endif()

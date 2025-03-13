@@ -17,8 +17,8 @@ endif()
 
 include(FetchContent)
 FetchContent_Declare(
-  googletest
-  URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
+        googletest
+        URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
 )
 # For Windows: Prevent overriding the parent project's compiler/linker settings
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
@@ -29,13 +29,14 @@ enable_testing()
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_executable(
-  algorithms_test
-  test/algorithms_test.cpp
+        algorithms_test
+        test/algorithms_test.cpp
+        src/main.cpp
 )
 
 target_link_libraries(
-  algorithms_test
-  GTest::gtest_main
+        algorithms_test
+        GTest::gtest_main
 )
 
 include(GoogleTest)

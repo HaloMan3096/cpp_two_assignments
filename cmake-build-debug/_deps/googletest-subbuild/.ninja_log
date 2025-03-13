@@ -1,0 +1,21 @@
+# ninja log v6
+2	62	7622189518066729	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	c9ad0f09078864f2
+2	62	7622189518066729	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	c9ad0f09078864f2
+63	851	7622189525965416	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	dfaf78b82e148c3
+63	851	7622189525965416	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	dfaf78b82e148c3
+852	902	7622189526477060	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	baf319a121d2c9d3
+852	902	7622189526477060	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	baf319a121d2c9d3
+902	959	7622189527050099	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	38505b1b10fd183f
+902	959	7622189527050099	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	38505b1b10fd183f
+960	1011	7622189527546559	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e83cbefa0b171a56
+960	1011	7622189527546559	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e83cbefa0b171a56
+1011	1061	7622189528066556	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	c79be38089859db0
+1011	1061	7622189528066556	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	c79be38089859db0
+1061	1108	7622189528544011	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8e0715e2aa2bb9d9
+1061	1108	7622189528544011	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8e0715e2aa2bb9d9
+1109	1158	7622189529045384	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	ec10e503ac61dae7
+1109	1158	7622189529045384	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	ec10e503ac61dae7
+1158	1223	7622189529685195	CMakeFiles/googletest-populate-complete	9ed8b0af17368c5e
+1158	1223	7622189529685195	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	9ed8b0af17368c5e
+1158	1223	7622189529685195	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	9ed8b0af17368c5e
+1158	1223	7622189529685195	C:/Users/logan/OneDrive/Desktop/Cpp2/cpp_two_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	9ed8b0af17368c5e
