@@ -31,6 +31,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 add_executable(
   algorithms_test
   test/algorithms_test.cpp
+        include/algo.hpp
 )
 
 target_link_libraries(

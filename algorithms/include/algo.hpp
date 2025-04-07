@@ -28,9 +28,37 @@ const std::string input = R"(73167176531330624919225119674426574742355349194934
 //9 * 9 * 8 * 9 = 5832
 //
 //Find the thirteen adjacent digits in the 1000 digit number that have the greatest product. What is the value of this product?
+inline std::string result;
 std::string * run()
 {
-    return new std::string("");
+    int index = 0;
+    int lastLargest = 0;
+
+    for (int i = 0; static_cast<size_t>(i) < input.length(); i++)
+    {
+        index = i;  // Reset index to avoid out-of-bounds errors
+        int val = 1; // Initialize to 1, not 0 (multiplication issue)
+
+        if (static_cast<size_t>(i) >= input.length() - 12)
+        {
+            result = std::to_string(lastLargest);
+            return &result;
+        }
+
+        for (int j = 0; static_cast<size_t>(j) < 13; j++)  // Run exactly 13 times
+        {
+            const auto currentVal = input.at(index) - '0';
+            val *= currentVal;
+            index++;
+        }
+
+        if (val > lastLargest)
+        {
+            lastLargest = val;
+        }
+    }
+
+    return &result;
 }
     
 #endif // ALGO_H_
