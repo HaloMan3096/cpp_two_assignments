@@ -32,6 +32,7 @@ add_executable(
   algorithms_test
   test/algorithms_test.cpp
         include/algo.hpp
+        ../library/src/main.cpp
 )
 
 target_link_libraries(

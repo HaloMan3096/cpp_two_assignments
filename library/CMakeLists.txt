@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.10)
 project(Library)
 
 # Set C++ Standard
@@ -26,14 +26,35 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
+add_library(library STATIC
+        src/Library.cpp
+        # Add other implementation files here if needed
+)
+
+target_include_directories(library PUBLIC
+        ${PROJECT_SOURCE_DIR}/include
+)
+
 add_executable(
-  library_test
-  test/unit_tests.cpp
+        library_app
+        src/main.cpp
+)
+
+target_link_libraries(library_app PRIVATE library)
+
+# Add the executables and source files
+add_executable(
+        library_test
+        test/unit_tests.cpp
 )
 
 target_link_libraries(
-  library_test
-  GTest::gtest_main
+        library_test
+        PRIVATE
+        library
+        GTest::gtest_main
 )
 
 include(GoogleTest)
